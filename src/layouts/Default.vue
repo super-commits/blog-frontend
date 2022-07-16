@@ -19,23 +19,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto py-4 py-lg-0">
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html"
-                >Home</a
+              <g-link class="nav-link px-lg-3 py-3 py-lg-4" to="/"
+                >Home</g-link
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html"
-                >About</a
+              <g-link class="nav-link px-lg-3 py-3 py-lg-4" to="/about"
+                >About</g-link
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html"
                 >Sample Post</a
               >
-            </li>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html"
-                >Contact</a
+              <g-link class="nav-link px-lg-3 py-3 py-lg-4" to="/contact"
+                >Contact</g-link
               >
             </li>
           </ul>
